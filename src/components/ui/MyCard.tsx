@@ -15,15 +15,15 @@ const MyCard = () => {
         <CardDescription><p className="text-slate-200">zarządanie projektami</p></CardDescription>
       </CardHeader>
       <CardContent>
-        <ul>
-          <li>
-            <Link href="/o-mnie">O MNIE</Link>
+        <ul >
+          <li >
+            <Link className="hover:underline" href="/o-mnie">O MNIE</Link>
           </li>
           <li>
-            <Link href="/uslugi">USŁUGI</Link>
+            <Link className="hover:underline" href="/uslugi">USŁUGI</Link>
           </li>
           <li>
-            <Link href="/kontakt">KONTAKT</Link>
+            <Link className="hover:underline" href="/kontakt">KONTAKT</Link>
           </li>
         </ul>
       </CardContent>
