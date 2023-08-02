@@ -15,6 +15,8 @@ const page = () => {
         <br />
         <p> Jestem po licznych szkoleniach z zakresu zarządzania projektami w tym szkoleniach z wykorzystaniem narzędzi (np. Asana, MS Office, Canva, Google Docs). Ukończyłam również studia podyplomowe z zakresu zarządzania projektami na Collegium da Vinci w Poznaniu.
         </p>
+        <br />
+        <p className="font-bold text-center">Zapraszam do kontaktu!</p>
       </div>
     </div>
   )
