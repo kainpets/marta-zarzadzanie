@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
-      <body className={`${inter.className} dark h-screen bg-orange-900 flex justify-center items-center content-center`}>{children}</body>
+      <body className={`${inter.className} dark h-screen bg-orange-900 flex justify-center items-center content-center`} >
+        
+        {children}
+        </body>
     </html>
   )
 }
